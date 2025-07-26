@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>St Dominic's High School | World Literacy Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+            color: #22223b;
+        }
+        /* Add this inside your <style> tag, after the body selector */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80') center center/cover no-repeat;
+    opacity: 0.18;
+    z-index: -1;
+    pointer-events: none;
+}
+        header {
+            background: #3a5a40;
+            color: #fff;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(58,90,64,0.1);
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+            gap: 2rem;
+        }
+        .hero img {
+            width: 320px;
+            max-width: 90vw;
+            border-radius: 1.5rem;
+            box-shadow: 0 6px 24px rgba(58,90,64,0.15);
+        }
+        .hero-text {
+            max-width: 500px;
+        }
+        .hero-text h2 {
+            font-size: 2rem;
+            color: #3a5a40;
+            margin-bottom: 0.5rem;
+        }
+        .hero-text p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .activities {
+            background: #fff;
+            margin: 2rem auto;
+            max-width: 900px;
+            border-radius: 1rem;
+            box-shadow: 0 2px 12px rgba(58,90,64,0.07);
+            padding: 2rem;
+        }
+        .activities h3 {
+            color: #52796f;
+            margin-top: 0;
+        }
+        .activity-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .activity {
+            flex: 1 1 250px;
+            background: #e9f5db;
+            border-radius: 0.8rem;
+            padding: 1rem;
+            box-shadow: 0 1px 6px rgba(82,121,111,0.08);
+            transition: transform 0.2s;
+        }
+        .activity:hover {
+            transform: translateY(-6px) scale(1.03);
+        }
+        .activity h4 {
+            margin: 0 0 0.5rem 0;
+            color: #3a5a40;
+        }
+        .footer {
+            text-align: center;
+            padding: 1.5rem 0 1rem 0;
+            background: #3a5a40;
+            color: #fff;
+            border-radius: 1rem 1rem 0 0;
+            margin-top: 2rem;
+            font-size: 1rem;
+        }
+        @media (max-width: 700px) {
+            .hero {
+                flex-direction: column;
+            }
+            .activities {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>St Dominic's High School</h1>
+        <p>Celebrating World Literacy Day</p>
+    </header>
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=600&q=80" alt="Students reading books">
+        <div class="hero-text">
+            <h2>Unlocking Worlds, One Page at a Time</h2>
+            <p>
+                At St Dominic's High School, we believe that literacy is the key to a brighter future. On World Literacy Day, we come together to celebrate the power of reading, writing, and learning. Join us as we inspire a love for books and empower every student to become a lifelong learner!
+            </p>
+        </div>
+    </section>
+    <section class="activities">
+        <h3>World Literacy Day Activities</h3>
+        <div class="activity-list">
+            <div class="activity">
+                <h4>Mobile Journalism Contest</h4>
+                <p>Use your smartphone or tablet to capture and report real stories happening around you. Learn how to research, interview, take photos, and create news articles or videos using digital tools. Mobile journalism helps you develop digital literacy skills by using technology to share information, tell stories, and make your voice heard in the digital world!</p>
+            </div>
+            <div class="activity">
+                <h4>Digital Story Telling Challenge</h4>
+                <p>Use your creativity and digital skills to craft a story using text, images, audio, or video. Show how digital tools can bring your ideas to life and help you share your voice with the world. Digital storytelling is a key part of digital literacy—let’s inspire, inform, and connect through technology!</p>
+            </div>
+            <div class="activity">
+                <h4>Cyber Safety Poster Contest</h4>
+                <p>Design a creative poster that teaches others how to stay safe online. Show the importance of protecting personal information, recognizing scams, and using technology responsibly. Digital literacy includes knowing how to navigate the internet safely—let’s help everyone become smart and safe digital citizens!</p>
+            </div>
+            <div class="activity">
+                <h4>🌍 Literacy for All</h4>
+                <p>Participate in workshops and discussions on how literacy can change lives and communities.</p>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        &copy; 2025 St Dominic's High School | World Literacy Day
+    </div>
+</body>
+</html>
